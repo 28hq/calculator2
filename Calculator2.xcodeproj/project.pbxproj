@@ -36,6 +36,7 @@
 		DC11D0D41B03094500535E68 /* Calculator2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC11D0D91B03094500535E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC11D0DA1B03094500535E68 /* Calculator2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator2Tests.swift; sourceTree = "<group>"; };
+		DC770A651B0324F3004C3F0B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 				DC11D0C41B03094500535E68 /* AppDelegate.swift */,
 				DC11D0C61B03094500535E68 /* ViewController.swift */,
 				DC11D0C81B03094500535E68 /* Main.storyboard */,
+				DC770A651B0324F3004C3F0B /* MyPlayground.playground */,
 				DC11D0CB1B03094500535E68 /* Images.xcassets */,
 				DC11D0CD1B03094500535E68 /* LaunchScreen.xib */,
 				DC11D0C21B03094500535E68 /* Supporting Files */,
@@ -343,6 +345,7 @@
 				INFOPLIST_FILE = Calculator2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -353,6 +356,7 @@
 				INFOPLIST_FILE = Calculator2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -409,6 +413,7 @@
 				DC11D0E01B03094500535E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC11D0E11B03094500535E68 /* Build configuration list for PBXNativeTarget "Calculator2Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				DC11D0E31B03094500535E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
